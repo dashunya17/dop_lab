@@ -13,9 +13,9 @@ public class Main {
             nums[i] = in.nextInt();
         }
         if(Element(nums) == 0 ){
-            System.out.println("Мажориторного числа нет ");
+            System.out.println("Мажоритарного числа нет ");
         }else{
-            System.out.println("Мажориторное число: " + Element(nums));
+            System.out.println("Мажоритарное число: " + Element(nums));
         }
     }
     public static int Element( int [] nums){
